@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pràctica Flexbox</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="capcalera contenidor">
+    <a class="marca" href="#inici">FLEX·LAB</a>
+    <nav aria-label="Navegació principal">
+      <ul class="menu"><li><a href="#projectes">Projectes</a></li><li><a href="#equip">Equip</a></li><li><a href="#contacte">Contacte</a></li></ul>
+    </nav>
+    <a class="boto" href="#contacte">Comença</a>
+  </header>
+
+  <main id="inici" class="contenidor">
+    <section class="hero">
+      <div><p class="etiqueta">PRÀCTICA 01</p><h1>Organitza elements amb Flexbox</h1><p>Una pàgina preparada per experimentar amb els eixos principal i transversal.</p></div>
+      <div class="caixa-destacada">display:<br><strong>flex</strong></div>
+    </section>
+
+    <section id="projectes">
+      <div class="titol-seccio"><div><p class="etiqueta">PROJECTES</p><h2>Galeria de targetes</h2></div><p>Prova a repartir l'espai disponible.</p></div>
+      <div class="targetes">
+        <article class="targeta"><span>01</span><h3>Explora</h3><p>Canvia l'ordre visual i l'alineació.</p></article>
+        <article class="targeta destacada"><span>02</span><h3>Construeix</h3><p>Fes que aquesta targeta cresca més.</p></article>
+        <article class="targeta"><span>03</span><h3>Comparteix</h3><p>Permet que les targetes baixen de línia.</p></article>
+      </div>
+    </section>
+
+    <section class="explicacio" id="equip"><h2>Què està passant?</h2><div class="conceptes"><article><code>display: flex</code><p>Converteix els fills directes en elements flexibles. Per defecte, s'ordenen en fila.</p></article><article><code>justify-content</code><p>Reparteix l'espai sobre l'eix principal: horitzontal quan la direcció és <code>row</code>.</p></article><article><code>align-items</code><p>Alinea els elements sobre l'eix transversal: vertical quan la direcció és <code>row</code>.</p></article><article><code>flex-wrap</code><p>Permet que les targetes passen a una línia nova quan ja no hi caben.</p></article></div></section>
+  </main>
+  <footer id="contacte">Flexbox és ideal per a components en una dimensió.</footer>
+</body>
+</html>

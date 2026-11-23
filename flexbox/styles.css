@@ -1,0 +1,16 @@
+/* Exemple viu de Flexbox. Prova de canviar una propietat i guarda el fitxer. */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; color: #16233a; background: #f6f8fc; line-height: 1.5; }
+.contenidor { width: min(1100px, 92%); margin-inline: auto; }
+.capcalera { min-height: 72px; display:flex; justify-content:space-between; align-items:center; gap:1rem; }
+.marca { color: #5138ee; font-size: 1.2rem; font-weight: 800; text-decoration: none; }
+.menu { display:flex; gap:1.25rem; list-style: none; margin: 0; padding: 0; }
+a { color: inherit; text-decoration: none; } .boto { display: inline-block; padding: .6rem 1rem; border-radius: .5rem; color: white; background: #5138ee; }
+.hero { min-height: 260px; padding: 3rem; border-radius: 1rem; color: white; background: linear-gradient(120deg,#5138ee,#8a62f4); display:flex; justify-content:space-between; align-items:center; gap:2rem; }
+h1 { max-width: 16ch; margin: .25rem 0; font-size: clamp(2rem, 6vw, 4rem); line-height: 1; } h2 { margin-top: 0; } .etiqueta { margin: 0; color: #d8ceff; font-size: .78rem; font-weight: 700; letter-spacing: .12em; }
+.caixa-destacada { padding: 1.3rem; border: 1px solid #b7a9ff; border-radius: .75rem; background: #ffffff1c; font-size: 1.1rem; }
+section { margin-block: 3rem; }.titol-seccio { display:flex; justify-content:space-between; align-items:end; }.titol-seccio .etiqueta { color: #5138ee; }
+.targetes { display:flex; flex-wrap:wrap; gap:1rem; }
+.targeta { flex:1; min-width: 180px; padding: 1.5rem; border-radius: .75rem; background: white; box-shadow: 0 8px 30px #20335b12; }.targeta span { color: #5138ee; font-weight: 800; }.targeta h3 { margin-bottom: 0; }.destacada { flex-grow:2; border: 2px solid #5138ee; }
+.explicacio { padding:1.5rem; border-radius:1rem; background:#eae6ff; }.conceptes { display:flex; flex-wrap:wrap; gap:1rem; }.conceptes article { flex:1 1 200px; padding:1rem; border-radius:.5rem; background:white; }.conceptes p { margin-bottom:0; } footer { padding:2rem; text-align:center; color: white; background: #16233a; }
+@media (max-width: 600px) { .capcalera,.hero,.titol-seccio { flex-direction:column; align-items:flex-start; } .capcalera { padding-block:1rem; }.menu { flex-wrap:wrap; } }
