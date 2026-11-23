@@ -1,12 +1,58 @@
 <!doctype html>
 <html lang="ca">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Pràctica Grid</title><link rel="stylesheet" href="styles.css"></head>
-<body><main class="contenidor"><p class="etiqueta">PRÀCTICA 02</p><h1>Tauler de notícies amb CSS Grid</h1><p class="introduccio">Grid reparteix una pàgina en files i columnes. Modifica les àrees per veure com es reordena el tauler.</p>
-  <section class="tauler">
-    <article class="article principal"><p>DESTACADA</p><h2>Un disseny, moltes possibilitats</h2><span>La notícia principal ocupa més espai.</span></article>
-    <article class="article tecnologia"><p>TECNOLOGIA</p><h2>Aprendre fent</h2><span>Experimenta amb `fr` i `gap`.</span></article>
-    <article class="article disseny"><p>DISSENY</p><h2>Menys és més</h2><span>Les àrees tenen noms descriptius.</span></article>
-    <article class="article agenda"><p>AGENDA</p><h2>Divendres: mostra de projectes</h2><span>Canvia la seua posició.</span></article>
-  </section>
-  <section class="explicacio"><h2>Lectura del tauler</h2><div><p><code>grid-template-columns: repeat(3, 1fr)</code> crea tres columnes iguals.</p><p><code>grid-template-areas</code> dibuixa la distribució amb noms. Una paraula repetida ocupa més d'una cel·la.</p><p>En pantalles menudes, una media query substitueix el dibuix per una única columna.</p></div></section>
-</main></body></html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pràctica Grid</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="contenidor">
+      <p class="etiqueta">PRÀCTICA 02</p>
+      <h1>Tauler de notícies amb CSS Grid</h1>
+      <p class="introduccio">
+        Grid reparteix una pàgina en files i columnes. Modifica les àrees per
+        veure com es reordena el tauler.
+      </p>
+      <section class="tauler">
+        <article class="article principal">
+          <p>DESTACADA</p>
+          <h2>Un disseny, moltes possibilitats</h2>
+          <span>La notícia principal ocupa més espai.</span>
+        </article>
+        <article class="article tecnologia">
+          <p>TECNOLOGIA</p>
+          <h2>Aprendre fent</h2>
+          <span>Experimenta amb `fr` i `gap`.</span>
+        </article>
+        <article class="article disseny">
+          <p>DISSENY</p>
+          <h2>Menys és més</h2>
+          <span>Les àrees tenen noms descriptius.</span>
+        </article>
+        <article class="article agenda">
+          <p>AGENDA</p>
+          <h2>Divendres: mostra de projectes</h2>
+          <span>Canvia la seua posició.</span>
+        </article>
+      </section>
+      <section class="explicacio">
+        <h2>Lectura del tauler</h2>
+        <div>
+          <p>
+            <code>grid-template-columns: repeat(3, 1fr)</code> crea tres
+            columnes iguals.
+          </p>
+          <p>
+            <code>grid-template-areas</code> dibuixa la distribució amb noms.
+            Una paraula repetida ocupa més d'una cel·la.
+          </p>
+          <p>
+            En pantalles menudes, una media query substitueix el dibuix per una
+            única columna.
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

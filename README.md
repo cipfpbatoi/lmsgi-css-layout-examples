@@ -4,11 +4,11 @@ Material de suport per a l'explicació a classe. No són exercicis: cada pàgina
 
 ## Estructura
 
-| Carpeta | Contingut | Objectiu principal |
-| --- | --- | --- |
-| `flexbox/` | Comparativa estàtica/flex i components reals | Eixos, alineació, `flex-wrap` i `flex` |
-| `grid/` | Comparativa normal/grid i tauler real | Columnes, fraccions, àrees i `minmax()` |
-| `responsive/` | Una pàgina que canvia en redimensionar | *Mobile first*, media queries i graella adaptable |
+| Carpeta       | Contingut                                    | Objectiu principal                                |
+|---------------|----------------------------------------------|---------------------------------------------------|
+| `flexbox/`    | Comparativa estàtica/flex i components reals | Eixos, alineació, `flex-wrap` i `flex`            |
+| `grid/`       | Comparativa normal/grid i tauler real        | Columnes, fraccions, àrees i `minmax()`           |
+| `responsive/` | Una pàgina que canvia en redimensionar       | *Mobile first*, media queries i graella adaptable |
 
 En cada carpeta hi ha:
 
@@ -23,5 +23,3 @@ En cada carpeta hi ha:
 3. **35 min** — `grid`: comparar el flux normal amb el tauler de columnes.
 4. **30 min** — `responsive`: redimensionar la finestra i observar els punts de ruptura.
 5. **10 min** — Torn obert per modificar una propietat i comentar-ne l'efecte.
-
-> Consell docent: demaneu que canvien només una propietat cada vegada i que expliquen què ha passat als dos eixos o als *breakpoints*.

@@ -12,10 +12,10 @@ Una web responsive adapta la presentació a l'amplària disponible. Aquest exemp
 }
 ```
 
-| Concepte | Exemple del projecte |
-| --- | --- |
-| Meta viewport | Permet que el mòbil use l'amplària real de pantalla |
-| `min-width` | Aplica estils des d'una amplària mínima |
-| `clamp()` | Fa que el títol cresca sense superar uns límits |
+| Concepte          | Exemple del projecte                                          |
+|-------------------|---------------------------------------------------------------|
+| Meta viewport     | Permet que el mòbil use l'amplària real de pantalla           |
+| `min-width`       | Aplica estils des d'una amplària mínima                       |
+| `clamp()`         | Fa que el títol cresca sense superar uns límits               |
 | Unitats relatives | `%`, `fr`, `rem` i `vw` s'adapten millor que els píxels fixos |
-| Imatge fluïda | `background-size: cover` ompli el bloc sense deformar-la |
+| Imatge fluïda     | `background-size: cover` ompli el bloc sense deformar-la      |
